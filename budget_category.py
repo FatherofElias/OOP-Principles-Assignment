@@ -1,6 +1,6 @@
 # Task 1
 
-# this is the module for task 1 with the private attributes (category name, allocated budget, remaining budget)
+# this is the module for for all tasks within the module with the private attributes (category name, allocated budget, remaining budget)
 
 
 class BudgetCategory:
