@@ -31,3 +31,14 @@ class BudgetCategory:
             self.__remaining_budget = allocated_budget
         else:
             raise ValueError("Budget must be a positive number")
+        
+
+
+# Task 3  
+
+ # Method to add an expense
+    def add_expense(self, amount):
+        if amount > 0 and amount <= self.__remaining_budget:
+            self.__remaining_budget -= amount
+        else:
+            raise ValueError("Invalid expense amount")
