@@ -42,3 +42,15 @@ class BudgetCategory:
             self.__remaining_budget -= amount
         else:
             raise ValueError("Invalid expense amount")
+
+
+# Task 4
+
+# Display Budget Details
+
+
+    def display_category_summary(self):
+        print(f"Category: {self.__category_name}")
+        print(f"Allocated Budget: {self.__allocated_budget}")
+        print(f"Remaining Budget: {self.__remaining_budget}")
+
